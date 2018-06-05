@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Pulse</string>
+    <string name="ecg">ECG</string>
+    <string name="details">Details</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name :</string>
+    <string name="age">Age :</string>
+    <string name="doctor">Doctor :</string>
+    <string name="register">Register</string>
+    <string name="paireddevices">PairedDevices</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="tvcontrol">tvControl</string>
+    <string name="start_stream">Start Stream</string>
+    <string name="stop_stream">Stop Stream</string>
+    <string name="lock_xaxis">Lock X</string>g>
+    <string name="auto_scroll_x">Auto Scroll_X</string>
+    <string name="string">Plus</string>
+    <string name="string1">Minus</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connect">Connect</string>
+    <string name="pulse">Pulse</string>
+    <string name="ma10">10Ma</string>
+    <string name="ma20">20Ma</string>
+    <string name="ma30">30Ma</string>
+    <string name="ma40">40Ma</string>
+    <string name="send">Send</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:weightSum="100"
+    android:orientation="horizontal"
+    tools:context="com.example.user.pulsed.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/bgraph"
+        android:layout_width="482dp"
+        android:layout_height="310dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="94dp"
+        android:layout_height="295dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:weightSum="85"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bgraph"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvbluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bluetooth"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/bConnect"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="@string/connect"
+            android:textColor="@color/colorPrimary"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/bDisconnect"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="@string/disconnect"
+            android:textColor="@color/colorPrimary"
+            android:textSize="8sp" />
+
+        <ToggleButton
+            android:id="@+id/tbStream"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:checked="false"
+            android:textColor="@color/colorPrimary"
+            android:textOff="@string/start_stream"
+            android:textOn="@string/stop_stream"
+            android:textSize="10sp" />
+
+        <ToggleButton
+            android:id="@+id/tblock"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:checked="true"
+            android:textSize="10sp"
+            android:textColor="@color/colorPrimary"
+            android:textOff="@string/lock_xaxis"
+            android:textOn="@string/lock_xaxis" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
