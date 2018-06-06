@@ -5,6 +5,6 @@ I used Arduino-Uno and Bluetooth for transmitting data on app.
 
 
 <br>
-image height="700"
+
 ![Screenshot](img.jpeg)
 <br>
